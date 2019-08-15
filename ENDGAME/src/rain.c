@@ -2,18 +2,16 @@
 
 void digit_rain() 
 {
-    initscr();  
-    WINDOW * wnd; 
-    wnd = newwin(36, 99, 0, 0); 
+    initscr();    
     start_color();
     
     init_pair(1, COLOR_GREEN, COLOR_BLACK);
     init_pair(2, COLOR_WHITE, COLOR_BLACK);    
 
-    wbkgd(wnd, COLOR_PAIR(1));
+    wbkgd(stdscr, COLOR_PAIR(1));
 
     int max_y = 0, max_x = 0;    
-    getmaxyx(wnd, max_y, max_x);
+    getmaxyx(stdscr, max_y, max_x);
     noecho();
     curs_set(FALSE);
     
@@ -66,9 +64,3 @@ void digit_rain()
     getch();
     endwin();
 }
-
-/*int main(){
-    digit_rain();
-    return 0;
-*/
-//}

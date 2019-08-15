@@ -5,7 +5,7 @@ void number0() {
 
 	initscr();
 	curs_set(0);
-	char *str = " #### ";
+	char *str =  " #### ";
  	char *str1 = "##  ##";
  	char *str2 = "##  ##";
  	char *str3 = "##  ##";
@@ -30,7 +30,7 @@ void number1() {
 
 	initscr();
 	curs_set(0);
-	char *str = " ###  ";
+	char *str =  " ###  ";
  	char *str1 = "####  ";
  	char *str2 = "  ##  ";
  	char *str3 = "  ##  ";
@@ -55,7 +55,7 @@ void number2() {
 
 	initscr();
 	curs_set(0);
-	char *str = " #### ";
+	char *str =  " #### ";
  	char *str1 = "##  ##";
  	char *str2 = "   ## ";
  	char *str3 = "  ##  ";
@@ -80,7 +80,7 @@ void number3() {
 
 	initscr();
 	curs_set(0);
-	char *str = " #### ";
+	char *str =  " #### ";
  	char *str1 = "##  ##";
  	char *str2 = "    ##";
  	char *str3 = "   ## ";
@@ -105,7 +105,7 @@ void number4() {
 
 	initscr();
 	curs_set(0);
-	char *str = "   ###";
+	char *str =  "   ###";
  	char *str1 = "  ####";
  	char *str2 = " ## ##";
  	char *str3 = "##  ##";
@@ -130,7 +130,7 @@ void number5() {
 
 	initscr();
 	curs_set(0);
-	char *str = "######";
+	char *str =  "######";
  	char *str1 = "##    ";
  	char *str2 = "##    ";
  	char *str3 = "##### ";
@@ -155,7 +155,7 @@ void number6() {
 
 	initscr();
 	curs_set(0);
-	char *str = " #### ";
+	char *str =  " #### ";
  	char *str1 = "##  ##";
  	char *str2 = "##    ";
  	char *str3 = "##### ";
@@ -180,7 +180,7 @@ void number7() {
 
 	initscr();
 	curs_set(0);
-	char *str = "######";
+	char *str =  "######";
  	char *str1 = "######";
  	char *str2 = "  ##  ";
  	char *str3 = " ##   ";
@@ -205,7 +205,7 @@ void number8() {
 
 	initscr();
 	curs_set(0);
-	char *str = " #### ";
+	char *str =  " #### ";
  	char *str1 = "##  ##";
  	char *str2 = "##  ##";
  	char *str3 = " #### ";
@@ -230,7 +230,7 @@ void number9() {
 
 	initscr();
 	curs_set(0);
-	char *str = " #### ";
+	char *str =  " #### ";
  	char *str1 = "##  ##";
  	char *str2 = "##  ##";
  	char *str3 = " #####";
